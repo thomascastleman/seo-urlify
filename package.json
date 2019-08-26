@@ -1,0 +1,24 @@
+{
+  "name": "url-ify",
+  "version": "1.0.0",
+  "description": "A package for formatting strings for use in URLs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomascastleman/url-ify.git"
+  },
+  "keywords": [
+    "SEO",
+    "URL",
+    "URLs"
+  ],
+  "author": "Thomas Castleman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomascastleman/url-ify/issues"
+  },
+  "homepage": "https://github.com/thomascastleman/url-ify#readme"
+}
