@@ -3,7 +3,7 @@
 	Generates a hyphenated, lower case, URL-safe
 	version of the given string, using '-' as a 
 	delimiter if none is given. */
-const format = function(s, delim) {
+const format = function(s, options) {
 	// remove all non-word/non-space characters
 	s = s.replace(/[^\s\w]/g, '');
 
@@ -13,11 +13,13 @@ const format = function(s, delim) {
 	// remove any hanging spaces from front or back of string
 	s = s.replace(/(^\s|\s$)/gm, '');
 
-	// normalize to lower case
-	s = s.toLowerCase();
+	if (!options || !options.preserveCase) {
+		// normalize to lower case
+		s = s.toLowerCase();
+	}
 
 	// split into word tokens and join with delimiter character (either passed as arg or default)
-	return s.split(' ').join(delim || '-');
+	return s.split(' ').join(options.delim || '-');
 }
 
 module.exports = format;
