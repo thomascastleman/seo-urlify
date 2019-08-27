@@ -1,12 +1,9 @@
 
-var params = {
-	delim_char: '-'
-};
-
 /*	String -> String
 	Generates a hyphenated, lower case, URL-safe
-	version of the given string */
-function format(s) {
+	version of the given string, using '-' as a 
+	delimiter if none is given. */
+const format = function(s, delim) {
 	// remove all non-word/non-space characters
 	s = s.replace(/[^\s\w]/g, '');
 
@@ -19,6 +16,8 @@ function format(s) {
 	// normalize to lower case
 	s = s.toLowerCase();
 
-	// split into word tokens and join with delimiter character
-	return s.split(' ').join(params.delim_char);
+	// split into word tokens and join with delimiter character (either passed as arg or default)
+	return s.split(' ').join(delim || '-');
 }
+
+module.exports = format;
