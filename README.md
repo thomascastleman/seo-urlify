@@ -1,24 +1,24 @@
-# url-ify
+# seo-urlify
 
-Urlify is a package that formats strings, removing characters that are unsafe for use in URLs and joining word tokens with a given delimiter.
+This package formats strings, removing characters that are unsafe for use in URLs and joining word tokens with a given delimiter.
 
 This can be useful for generating SEO-friendly URLs from strings, such as:
 ```
 https://stackoverflow.com/questions/7920860/how-to-generate-large-random-numbers-c
 ```
 
-In this case, they have taken the question title ("How to generate large random numbers C") and formatted it for use in the question URL. Urlify is designed to perform this task.
+In this case, they have taken the question title ("How to generate large random numbers C") and formatted it for use in the question URL.
 
 ## Installation
 
 First, install:
 ```
-npm install url-ify --save
+npm install seo-urlify --save
 ```
 
 Then, import the module before using:
 ```javascript
-const urlify = require('url-ify');
+const urlify = require('seo-urlify');
 ```
 
 ## Usage
