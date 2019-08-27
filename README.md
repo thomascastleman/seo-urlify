@@ -1,6 +1,6 @@
 # seo-urlify
 
-This package formats strings, removing characters that are unsafe for use in URLs and joining word tokens with a given delimiter.
+This is a very light-weight, dependency-free package that formats strings, removing characters that are unsafe for use in URLs and joining word tokens with a given delimiter.
 
 This can be useful for generating SEO-friendly URLs from strings, such as:
 ```
