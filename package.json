@@ -1,5 +1,5 @@
 {
-  "name": "url-ify",
+  "name": "seo-urlify",
   "version": "1.0.0",
   "description": "A package for formatting strings for use in URLs",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomascastleman/url-ify.git"
+    "url": "git+https://github.com/thomascastleman/seo-urlify.git"
   },
   "keywords": [
     "SEO",
@@ -18,7 +18,7 @@
   "author": "Thomas Castleman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thomascastleman/url-ify/issues"
+    "url": "https://github.com/thomascastleman/seo-urlify/issues"
   },
-  "homepage": "https://github.com/thomascastleman/url-ify#readme"
+  "homepage": "https://github.com/thomascastleman/seo-urlify#readme"
 }
